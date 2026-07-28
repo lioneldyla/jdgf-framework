@@ -3,7 +3,7 @@
 **Version:** 1.0 Working Draft  
 **Status:** Pre-validation
 
-This document defines the seven governance dimensions used by the JDGF Core Framework.
+This document defines the eight governance dimensions used by the JDGF Core Framework.
 
 ## Dimension 1 — Leadership and institutional governance
 
@@ -24,19 +24,20 @@ This document defines the seven governance dimensions used by the JDGF Core Fram
 
 ## Dimension 2 — Legal, ethical, and rights-based governance
 
-**Objective:** Ensure that data practices respect applicable law, judicial independence, due process, confidentiality, privacy, equality, and other fundamental rights.
+**Objective:** Ensure that data practices respect applicable law, judicial independence, due process, confidentiality, privacy, equality, human dignity, access to justice, and other fundamental rights.
 
 **Core capabilities:**
 
 - register of legal and regulatory obligations;
 - lawful-purpose and authority documentation;
-- privacy and rights impact assessment;
+- privacy, equality, and rights impact assessment;
 - ethical review for sensitive or high-risk use;
 - rules for access, disclosure, and secondary use;
 - safeguards against discrimination and harmful profiling;
+- meaningful human oversight and contestability;
 - complaint, redress, and accountability mechanisms.
 
-**Expected evidence:** legal registers, opinions, impact assessments, approvals, access rules, transparency notices, ethics decisions, and complaint records.
+**Expected evidence:** legal registers, opinions, impact assessments, approvals, access rules, transparency notices, ethics decisions, human-oversight records, and complaint records.
 
 ## Dimension 3 — Data architecture and interoperability
 
@@ -47,7 +48,7 @@ This document defines the seven governance dimensions used by the JDGF Core Fram
 - enterprise and domain data inventories;
 - authoritative-source designation;
 - common data models and identifiers;
-- interoperability standards;
+- interoperability and exchange standards;
 - interface and exchange governance;
 - lineage and dependency mapping;
 - change and version management;
@@ -57,12 +58,13 @@ This document defines the seven governance dimensions used by the JDGF Core Fram
 
 ## Dimension 4 — Data quality and metadata
 
-**Objective:** Ensure that judicial data is sufficiently accurate, complete, consistent, timely, valid, unique, and understandable for its intended purpose.
+**Objective:** Ensure that judicial data is sufficiently accurate, complete, consistent, timely, valid, unique, standardized, and understandable for its intended purpose.
 
 **Core capabilities:**
 
 - controlled glossary and definitions;
 - metadata catalogue;
+- common coding and classification standards;
 - data quality rules and thresholds;
 - profiling and monitoring;
 - issue logging and remediation;
@@ -70,7 +72,7 @@ This document defines the seven governance dimensions used by the JDGF Core Fram
 - quality ownership and escalation;
 - quality reporting by critical data element.
 
-**Expected evidence:** definitions, metadata records, quality rules, dashboards, exception logs, remediation plans, and quality review minutes.
+**Expected evidence:** definitions, metadata records, code lists, quality rules, dashboards, exception logs, remediation plans, and quality review minutes.
 
 ## Dimension 5 — Security, privacy, and continuity
 
@@ -108,7 +110,7 @@ This document defines the seven governance dimensions used by the JDGF Core Fram
 
 ## Dimension 7 — Use, statistics, transparency, and responsible innovation
 
-**Objective:** Enable trustworthy operational use, judicial statistics, public transparency, research, and responsible innovation without compromising rights or institutional integrity.
+**Objective:** Enable trustworthy operational use, judicial statistics, public transparency, research, and non-AI innovation without compromising rights or institutional integrity.
 
 **Core capabilities:**
 
@@ -117,17 +119,41 @@ This document defines the seven governance dimensions used by the JDGF Core Fram
 - disclosure-risk and publication review;
 - open-data governance where lawful;
 - research-access procedures;
-- analytics and AI governance;
-- model and algorithm documentation;
-- benefit, risk, and outcome monitoring.
+- analytics governance for non-AI methods;
+- benefit, risk, and outcome monitoring;
+- public transparency and explanation practices.
 
-**Expected evidence:** statistical methods, release calendars, publication approvals, anonymization assessments, research agreements, model records, impact assessments, and monitoring reports.
+**Expected evidence:** statistical methods, release calendars, publication approvals, anonymization assessments, research agreements, analytics records, impact assessments, and monitoring reports.
+
+## Dimension 8 — Artificial intelligence readiness
+
+**Objective:** Determine whether the institution has the human, institutional, governance, data, digital, legal, ethical, and operational conditions required to consider, authorize, deploy, monitor, suspend, and retire AI systems responsibly.
+
+AI readiness is not measured by the number of AI systems deployed. An institution may demonstrate high readiness while deciding not to deploy AI for a particular use case.
+
+**Core capabilities:**
+
+- AI strategy aligned with judicial mandate and public value;
+- inventory and classification of proposed and operating AI use cases;
+- documented problem definition and non-AI alternatives analysis;
+- legal, ethical, rights, privacy, security, and equality impact assessment;
+- data suitability, provenance, representativeness, and quality assessment;
+- multidisciplinary authorization and independent challenge;
+- meaningful human oversight, override, escalation, and contestability;
+- technical documentation, traceability, testing, and validation;
+- performance, error, drift, bias, and unintended-effect monitoring;
+- supplier, model, and third-party dependency governance;
+- incident response, suspension, rollback, and retirement procedures;
+- workforce competence, judicial literacy, and change management.
+
+**Expected evidence:** AI registers, strategy and authorization records, use-case assessments, alternatives analyses, data-suitability reports, model documentation, validation results, oversight procedures, monitoring reports, incident logs, supplier assessments, training records, and retirement decisions.
 
 ## Cross-dimensional requirements
 
 All dimensions must address:
 
 - accountability;
+- human-centred justice;
 - competence and resources;
 - documented processes;
 - evidence and traceability;
@@ -135,6 +161,23 @@ All dimensions must address:
 - performance indicators;
 - periodic review;
 - continuous improvement.
+
+## Consolidation mapping
+
+The prior ten-concept formulation is incorporated as follows:
+
+| Prior concept | Canonical treatment in JDGF v1.0 |
+|---|---|
+| Quality | Dimension 4 |
+| Standardization | Dimensions 3 and 4 |
+| Institutional governance | Dimension 1 |
+| Accountability | Cross-dimensional requirement, reinforced in Dimensions 1 and 2 |
+| Security | Dimension 5 |
+| Interoperability | Dimension 3 |
+| Statistics | Dimension 7 |
+| Strategic steering | Dimension 1 |
+| AI readiness | Dimension 8 |
+| Human-centred justice | Foundational and cross-dimensional principle, operationalized especially in Dimensions 2 and 8 |
 
 ## Initial outcome indicators
 
@@ -147,6 +190,8 @@ Suggested high-level indicators include:
 - percentage of record categories covered by approved retention schedules;
 - timeliness and revision rate of judicial statistics;
 - percentage of high-risk data uses subject to impact assessment;
+- percentage of proposed or operating AI use cases recorded and formally reviewed;
+- percentage of authorized AI systems with current monitoring, oversight, and exit procedures;
 - completion rate of agreed maturity-improvement actions.
 
 The final indicator catalogue will be calibrated during pilot validation.
