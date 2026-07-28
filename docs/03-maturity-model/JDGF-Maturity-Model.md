@@ -13,7 +13,7 @@ JDGF uses a **formative capability model**: the assessed attributes jointly cons
 
 The model combines:
 
-- seven governance dimensions;
+- eight governance dimensions;
 - six recurring capability attributes;
 - evidence-based item scores from 0 to 5;
 - critical-control gates;
@@ -79,6 +79,8 @@ An item may be marked **Not Applicable (N/A)** only when:
 
 N/A items are removed from the denominator and reported separately. Missing evidence is never N/A.
 
+For Dimension 8, an institution that has no proposed or operating AI use case must still assess the foundational readiness capabilities needed to govern future proposals. Questions that presuppose an operating AI system may be N/A when the exclusion is documented. Absence of deployment must not automatically produce either a high or a low readiness score.
+
 ## 8. Item and attribute aggregation
 
 For each capability attribute:
@@ -98,7 +100,7 @@ The following rules prevent compensatory averaging:
 - no dimension may reach Level 3 without approved policy, assigned accountability, and repeatable processes;
 - no dimension may reach Level 4 without performance measures, periodic review, tested operating effectiveness, and documented corrective action;
 - no dimension may reach Level 5 without sustained improvement evidence, controlled adaptation, and independent challenge;
-- a critical legal, fundamental-rights, judicial-integrity, security, continuity, evidentiary-integrity, or unauthorized-use failure caps the affected dimension at Level 2 until remediated and verified;
+- a critical legal, fundamental-rights, judicial-integrity, security, continuity, evidentiary-integrity, unauthorized-use, or uncontrolled-AI failure caps the affected dimension at Level 2 until remediated and verified;
 - an unresolved critical finding caps the overall institutional maturity at Level 2;
 - a low-confidence dimension cannot support a maturity claim above Level 2 unless additional evidence is obtained.
 
@@ -116,7 +118,7 @@ The overall descriptive level is the integer part of the overall score, but cann
 - any cap produced by an unresolved critical finding;
 - the level permitted by evidence confidence.
 
-Institutions must report the complete seven-dimension profile, score distribution, critical findings, exclusions, and confidence ratings. A single aggregate score must never be reported alone.
+Institutions must report the complete eight-dimension profile, score distribution, critical findings, exclusions, and confidence ratings. A single aggregate score must never be reported alone.
 
 ## 11. Evidence-confidence rating
 
@@ -137,7 +139,13 @@ Progress assessments should compare like-for-like scope and retain the prior evi
 - the change survives moderation and applicable gates;
 - the assessment explains any change in scope or scoring interpretation.
 
-## 13. Validation strategy
+## 13. Proportionality and future lightweight profile
+
+The canonical v1.0 model applies the same eight dimensions and six capability attributes to all participating institutions, but assessment depth, sampling, documentary burden, and assurance arrangements must remain proportionate to institutional size, mandate, risk, and resources.
+
+A future **JDGF Lightweight Assessment Profile** may be developed for small or resource-constrained jurisdictions. It must remain traceable to the canonical model, preserve critical-control gates, and must not silently redefine maturity levels. This lightweight profile is not required for the JDGF v1.0 normative baseline.
+
+## 14. Validation strategy
 
 Before JDGF v1.0 is declared empirically validated, the scoring model must be tested for:
 
@@ -153,7 +161,7 @@ Before JDGF v1.0 is declared empirically validated, the scoring model must be te
 
 Because JDGF is formative, factor analysis and coefficient alpha must not be treated as sole or decisive validation tests.
 
-## 14. Minimum validation thresholds for release decisions
+## 15. Minimum validation thresholds for release decisions
 
 The following are provisional release criteria and must themselves be reviewed after pilot data are available:
 
@@ -167,6 +175,6 @@ The following are provisional release criteria and must themselves be reviewed a
 
 Failure to meet a threshold requires item revision, scoring clarification, additional assessor training, or further piloting; it does not justify suppressing results.
 
-## 15. Status statement
+## 16. Status statement
 
 The revised model has stronger theoretical and procedural safeguards, but no real institutional dataset has yet been supplied to this repository. Therefore its scoring system is **methodologically specified, not empirically validated**. Any pilot illustration must be labelled simulated until collected from an authorized institution under the approved protocol.
