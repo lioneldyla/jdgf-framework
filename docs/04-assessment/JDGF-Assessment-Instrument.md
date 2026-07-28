@@ -1,9 +1,9 @@
 # JDGF Assessment Instrument
 
 **Version:** 1.0 Working Draft  
-**Status:** Pilot instrument
+**Status:** Pilot documentary instrument within JDGF v1.0 scope
 
-This instrument operationalizes the JDGF Assessment Methodology. It should be completed with an evidence register and the JDGF scoring model.
+This instrument operationalizes the JDGF Assessment Methodology. It should be completed with an evidence register and the JDGF scoring model. It is a documentary questionnaire, not a software product or automated assessment platform.
 
 ## Assessment identification
 
@@ -21,7 +21,7 @@ This instrument operationalizes the JDGF Assessment Methodology. It should be co
 
 ## Scoring instructions
 
-Score each question from 0 to 5 according to the JDGF Maturity Model. Record the evidence reference, finding, confidence rating, and proposed action. A score without traceable evidence is invalid.
+Score each question from 0 to 5 according to the JDGF Maturity Model. Record the evidence reference, finding, confidence rating, and proposed action. A score without traceable evidence is invalid. Identify critical items before fieldwork and apply the approved non-compensation gates.
 
 ## Dimension 1 — Leadership and institutional governance
 
@@ -37,10 +37,10 @@ Score each question from 0 to 5 according to the JDGF Maturity Model. Record the
 
 1. Are applicable legal and regulatory obligations identified and maintained?
 2. Are collection, access, exchange, publication, and secondary use tied to lawful purposes?
-3. Are privacy, rights, and ethical impacts assessed for high-risk activities?
-4. Are confidentiality, due process, equality, and judicial independence protected?
-5. Are complaints, redress, and accountability mechanisms available?
-6. Are high-risk analytics and AI uses subject to authorization and oversight?
+3. Are privacy, equality, rights, and ethical impacts assessed for high-risk activities?
+4. Are confidentiality, due process, equality, human dignity, and judicial independence protected?
+5. Are complaints, contestability, redress, and accountability mechanisms available?
+6. Are high-risk analytics and data uses subject to authorization and oversight?
 
 ## Dimension 3 — Data architecture and interoperability
 
@@ -55,10 +55,11 @@ Score each question from 0 to 5 according to the JDGF Maturity Model. Record the
 
 1. Are critical data elements identified and defined?
 2. Is metadata documented and maintained in a controlled catalogue?
-3. Are quality dimensions, rules, thresholds, and owners established?
-4. Is quality monitored and reported at an appropriate frequency?
-5. Are quality issues logged, prioritized, remediated, and escalated?
-6. Is root-cause analysis used to prevent recurring problems?
+3. Are common code lists, classifications, and standard definitions governed?
+4. Are quality dimensions, rules, thresholds, and owners established?
+5. Is quality monitored and reported at an appropriate frequency?
+6. Are quality issues logged, prioritized, remediated, and escalated?
+7. Is root-cause analysis used to prevent recurring problems?
 
 ## Dimension 5 — Security, privacy, and continuity
 
@@ -84,9 +85,26 @@ Score each question from 0 to 5 according to the JDGF Maturity Model. Record the
 2. Are judicial statistics produced under documented quality and release procedures?
 3. Are disclosure, anonymization, and publication risks assessed?
 4. Are research access and data-sharing requests governed?
-5. Are analytics and AI systems inventoried, documented, and risk-assessed?
-6. Are outcomes, errors, bias, and unintended effects monitored?
+5. Are non-AI analytics inventoried, documented, and risk-assessed where material?
+6. Are outcomes, errors, and unintended effects monitored?
 7. Are transparency obligations balanced with confidentiality and rights?
+
+## Dimension 8 — Artificial intelligence readiness
+
+1. Is AI governance formally linked to the judicial mandate, public value, and the JDGF human-first theory of change?
+2. Are proposed and operating AI use cases inventoried and classified by risk and impact?
+3. Is each use case supported by a documented problem definition and assessment of non-AI alternatives?
+4. Are legal, ethical, privacy, equality, security, and fundamental-rights impacts assessed before authorization?
+5. Are training, validation, and operational data assessed for provenance, suitability, quality, representativeness, and lawful use?
+6. Are multidisciplinary authorization, independent challenge, and clear decision rights established?
+7. Are meaningful human oversight, override, escalation, explanation, contestability, and redress mechanisms defined?
+8. Are technical documentation, testing, validation, traceability, and reproducibility requirements applied?
+9. Are performance, error, drift, bias, differential impacts, and unintended effects monitored after deployment?
+10. Are supplier, model, intellectual-property, confidentiality, portability, and third-party dependency risks governed?
+11. Are incident response, suspension, rollback, fallback, and retirement procedures tested and usable?
+12. Are judges, court staff, technical personnel, and oversight actors trained for their respective responsibilities?
+
+For institutions without a proposed or operating AI use case, assess foundational governance readiness. Mark only deployment-specific questions N/A when the exclusion is documented and approved. The absence of AI deployment is not, by itself, evidence of either maturity or immaturity.
 
 ## Finding record template
 
@@ -94,6 +112,7 @@ Score each question from 0 to 5 according to the JDGF Maturity Model. Record the
 |---|---|
 | Dimension and question | |
 | Score (0–5) | |
+| Critical item | Yes / No |
 | Evidence reference(s) | |
 | Finding | |
 | Risk/impact | Critical / High / Moderate / Low / Good practice |
@@ -113,5 +132,16 @@ Score each question from 0 to 5 according to the JDGF Maturity Model. Record the
 | Security, privacy, and continuity | | | | |
 | Data lifecycle and records governance | | | | |
 | Use, statistics, transparency, and responsible innovation | | | | |
+| Artificial intelligence readiness | | | | |
 
-The instrument must be revised after pilot testing to improve clarity, reliability, and feasibility.
+## Scope boundary
+
+This questionnaire is part of the JDGF v1.0 documentary framework because it is necessary to apply the maturity model consistently. The following remain outside the v1.0 scope:
+
+- an automated JDGAT software application;
+- a hosted assessment platform;
+- automated evidence ingestion or scoring;
+- dashboards marketed as a certified product;
+- algorithmic certification or conformity decisions.
+
+The instrument must be revised after pilot testing to improve clarity, reliability, proportionality, and feasibility.
