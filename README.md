@@ -29,7 +29,6 @@ JDGF is developed within the **Institutional Governance Research Program (IGRP)*
 ```text
 jdgf-framework/
 ├── README.md                    # Public project gateway
-├── CLAUDE.md                    # Permanent AI and project instructions
 ├── AUDIT.md                     # Repository audit and v1.0 readiness plan
 ├── CHANGELOG.md                 # Revision history
 ├── CONTRIBUTING.md              # Contribution and review rules
