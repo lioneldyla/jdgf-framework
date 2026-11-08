@@ -2,7 +2,7 @@
 
 > A practical framework for designing, implementing, and evaluating data governance systems in African judicial institutions.
 
-[![Author](https://img.shields.io/badge/Author-Yoboukoua_DJORO-0077B5?style=flat)](https://www.linkedin.com/in/lioneldyla/)
+[![Author](https://img.shields.io/badge/Author-Yoboukoua_DJORO-0077B5?style=flat)](https://www.linkedin.com/in/dylaprod/)
 [![Status](https://img.shields.io/badge/Status-In_Development-orange?style=flat)]()
 [![Domain](https://img.shields.io/badge/Domain-Judicial_Data_Governance-blue?style=flat)]()
 
@@ -86,7 +86,7 @@ References: DAMA-DMBOK, TOGAF, COBIT, ISO 8000, GDPR principles, OHADA legal fra
 ## Author
 
 **Yoboukoua DJORO** — Judicial Data & AI Governance Architect  
-Ministry of Justice, Côte d'Ivoire | [LinkedIn](https://www.linkedin.com/in/lioneldyla/)
+Ministry of Justice, Côte d'Ivoire | [LinkedIn](https://www.linkedin.com/in/dylaprod/)
 
 ---
 
